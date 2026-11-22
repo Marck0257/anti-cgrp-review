@@ -2,6 +2,8 @@
 
 Evidence companion for a systematic review of anti-CGRP monoclonal antibodies in resistant chronic migraine. The site presents preliminary analyses and distinguishes evidence still under review. The public site is served from the `docs/` directory on the `main` branch through GitHub Pages.
 
+[Visit the evidence review](https://marck0257.github.io/anti-cgrp-review/) · [Poster QR (SVG)](poster/qr-anti-cgrp.svg) · [Poster QR (PNG)](poster/qr-anti-cgrp.png)
+
 ## Cómo actualizar la página
 
 - Edita los textos, la autoría, las referencias y las descripciones de los archivos en `docs/content/review.js`.
