@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Study protocol, preliminary evidence and supplementary material for a systematic review of anti-CGRP monoclonal antibodies in resistant chronic migraine.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f8f5f1">
+  <title>CGRP Evidence Review | Resistant Chronic Migraine</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/review.css">
+  <script src="content/review.js" defer></script>
+  <script src="content/outcomes.js" defer></script>
+  <script src="content/search.js" defer></script>
+  <script src="assets/review.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip">Skip to content</a>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="wordmark" href="#overview" aria-label="CGRP Evidence Review, overview">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+        <span><strong>CGRP</strong><small>Evidence Review</small></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu</button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#overview">Overview</a><a href="#protocol">Protocol</a><a href="#manuscript">Manuscript</a>
+        <a href="#evidence">Results</a><a href="#supplements">Supplements</a><a href="#references">References</a>
+      </nav>
+      <a class="header-download" href="#downloads"><span class="down-icon" aria-hidden="true"></span> Downloads</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="overview" aria-labelledby="review-title">
+      <div class="hero">
+        <div class="shell hero-grid">
+          <div class="hero-main">
+            <div class="hero-kicker">
+              <p class="eyebrow" id="hero-article-type"></p>
+              <span class="status" id="site-status"></span>
+            </div>
+            <h1 id="review-title">Efficacy and safety of anti-CGRP monoclonal antibodies in resistant chronic migraine</h1>
+            <p class="hero-description" id="hero-summary"></p>
+            <p class="hero-affiliation" id="hero-affiliation"></p>
+            <div class="hero-actions">
+              <a href="#evidence" class="button primary">Explore the evidence</a>
+              <a href="#protocol" class="button secondary">Read the protocol</a>
+            </div>
+          </div>
+          <aside class="hero-aside" aria-label="Study scope">
+            <div class="aside-registration">
+              <p class="eyebrow">Study registration</p>
+              <a id="registry-hero" class="registry-id"></a>
+              <span id="registered-date"></span>
+            </div>
+            <dl class="hero-scope" id="hero-scope"></dl>
+            <a class="editorial-link" href="#authors">Authors and affiliations</a>
+          </aside>
+        </div>
+      </div>
+      <div class="shell snapshot" aria-label="Outcomes at a glance" id="snapshot"></div>
+      <div class="shell section-spacing two-col">
+        <div class="reading">
+          <p class="eyebrow">Review rationale</p>
+          <h2>Why this review?</h2>
+          <div id="rationale" class="prose"></div>
+        </div>
+        <aside class="author-panel" id="authors" aria-labelledby="authors-title">
+          <p class="eyebrow">Manuscript byline</p>
+          <h2 id="authors-title">Authors and affiliation</h2>
+          <p id="author-affiliation"></p>
+          <ul id="author-list"></ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="shell section-spacing two-col" id="protocol" aria-labelledby="protocol-title">
+      <div class="reading">
+        <header class="section-header">
+          <p class="eyebrow">Study design</p>
+          <h2 id="protocol-title">Protocol</h2>
+          <p id="protocol-question"></p>
+        </header>
+        <dl id="pico" class="pico"></dl>
+        <div id="protocol-methods" class="method-list prose"></div>
+      </div>
+      <aside class="rail" aria-label="Protocol documents">
+        <p class="eyebrow">Protocol documents</p>
+        <h3>Registration and original protocol</h3>
+        <a id="registry-protocol" class="editorial-link"></a>
+        <div id="protocol-download"></div>
+      </aside>
+    </section>
+
+    <section id="manuscript" class="band" aria-labelledby="manuscript-title">
+      <div class="shell section-spacing manuscript-grid">
+        <div class="reading manuscript-reading">
+          <header class="section-header">
+            <p class="eyebrow" id="manuscript-version"></p>
+            <h2 id="manuscript-title">Manuscript</h2>
+            <p>The working article and its available sections.</p>
+          </header>
+          <div id="manuscript-content"></div>
+        </div>
+        <aside class="rail manuscript-rail" aria-label="Manuscript navigation">
+          <p class="eyebrow">In this manuscript</p>
+          <nav id="article-nav" aria-label="Manuscript sections"></nav>
+          <div id="manuscript-download"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="band" id="evidence" aria-labelledby="evidence-title">
+      <div class="shell section-spacing">
+        <header class="section-header">
+          <p class="eyebrow">Results</p>
+          <h2 id="evidence-title">Evidence explorer</h2>
+          <p id="evidence-description"></p>
+        </header>
+        <div class="notice" id="evidence-notice"></div>
+        <div class="evidence-grid">
+          <div class="outcome-nav">
+            <label for="outcome-filter">Filter by outcome type</label>
+            <select id="outcome-filter"><option value="All">All outcomes</option><option>Efficacy</option><option>Disability</option><option>Safety</option></select>
+            <div id="outcome-list" aria-label="Outcomes"></div>
+          </div>
+          <article class="evidence-panel" aria-labelledby="outcome-title">
+            <div class="evidence-panel-header" id="outcome-header"></div>
+            <div id="evidence-tabs" class="tabs" role="tablist" aria-label="Outcome views">
+              <button type="button" role="tab" id="tab-forest" data-view="forest" aria-controls="evidence-view">Forest plot</button>
+              <button type="button" role="tab" id="tab-study" data-view="study" aria-controls="evidence-view">Study data</button>
+              <button type="button" role="tab" id="tab-grade" data-view="grade" aria-controls="evidence-view">GRADE</button>
+              <button type="button" role="tab" id="tab-sensitivity" data-view="sensitivity" aria-controls="evidence-view">Sensitivity</button>
+            </div>
+            <div class="panel-body" id="evidence-view" role="tabpanel" tabindex="0"></div>
+          </article>
+        </div>
+        <details class="fold" id="findings">
+          <summary>Summary of findings</summary>
+          <div id="findings-table" class="fold-body"></div>
+        </details>
+        <details class="fold" id="trials">
+          <summary>Trial characteristics</summary>
+          <div id="trial-table" class="fold-body"></div>
+        </details>
+        <ul class="availability" id="availability"></ul>
+      </div>
+    </section>
+
+    <section class="shell section-spacing" id="supplements" aria-labelledby="supplements-title">
+      <header class="section-header">
+        <p class="eyebrow">Supplementary material</p>
+        <h2 id="supplements-title">Search, selection and extraction</h2>
+      </header>
+      <div class="supplement-grid">
+        <div class="supp-card">
+          <p class="eyebrow">Study selection</p>
+          <h3>PRISMA 2020 flow diagram</h3>
+          <figure class="prisma-figure" id="prisma-figure"></figure>
+        </div>
+        <div class="supp-card">
+          <p class="eyebrow">Search methods</p>
+          <h3>Database search strategies</h3>
+          <p class="muted">Queries from the manuscript appendix. Final run dates and limits are under review.</p>
+          <div id="search-queries"></div>
+        </div>
+      </div>
+      <div id="supplement-downloads" class="supplement-downloads"></div>
+    </section>
+
+    <section class="band" id="references" aria-labelledby="references-title">
+      <div class="shell section-spacing two-col references-grid">
+        <header class="section-header">
+          <p class="eyebrow">Bibliography</p>
+          <h2 id="references-title">References</h2>
+          <p>The current manuscript bibliography in citation order.</p>
+        </header>
+        <div>
+          <ol class="reference-list" id="reference-list"></ol>
+          <details id="analysis-references" class="fold">
+            <summary>Additional references from RevMan</summary>
+            <ol class="reference-list" id="analysis-reference-list"></ol>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell section-spacing" id="downloads" aria-labelledby="downloads-title">
+      <header class="section-header">
+        <p class="eyebrow">Review files</p>
+        <h2 id="downloads-title">Downloads</h2>
+      </header>
+      <div class="download-grid" id="download-grid"></div>
+    </section>
+    <noscript><p class="shell notice">Enable JavaScript to browse the review content and interactive results. <a href="files/manuscript.pdf">Open the manuscript PDF</a> or <a href="files/protocol.pdf">open the original protocol PDF</a>.</p></noscript>
+  </main>
+  <footer class="site-footer">
+    <div class="shell"><span>CGRP Evidence Review</span><a id="registry-footer"></a><a href="#overview">Back to overview</a></div>
+  </footer>
+  <dialog id="figure-dialog" aria-labelledby="figure-dialog-title">
+    <div class="dialog-header"><h2 id="figure-dialog-title"></h2><button class="button secondary" type="button" id="close-figure">Close</button></div>
+    <div class="dialog-body" id="figure-dialog-content"></div>
+  </dialog>
+</body>
+</html>
